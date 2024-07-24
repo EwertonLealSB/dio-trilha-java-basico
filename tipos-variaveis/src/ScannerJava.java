@@ -23,7 +23,7 @@ public class ScannerJava {
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
-        
+        System.err.printf("Seu nome é " + nome + " " + sobrenome +", sua idade: " + idade + " e altura " + altura);
         
     }
 }
